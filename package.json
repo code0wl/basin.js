@@ -1,0 +1,26 @@
+{
+  "name": "basin",
+  "version": "1.0.0",
+  "description": "Small util for chaining other datatypes besides an array",
+  "main": "basin.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code0wl/basin.js.git"
+  },
+  "keywords": [
+    "js",
+    "chain"
+  ],
+  "author": "code0wl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code0wl/basin.js/issues"
+  },
+  "homepage": "https://github.com/code0wl/basin.js#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
