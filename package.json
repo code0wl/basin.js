@@ -1,9 +1,10 @@
 {
-  "name": "basin",
+  "name": "basin.js",
   "version": "1.0.0",
   "description": "Small util for chaining other datatypes besides an array",
-  "main": "basin.js",
+  "main": "./dist/basin.min.js",
   "scripts": {
+    "start": "webpack --config webpack.config.js",
     "test": "jest"
   },
   "repository": {
@@ -14,13 +15,18 @@
     "js",
     "chain"
   ],
-  "author": "code0wl",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/code0wl/basin.js/issues"
   },
   "homepage": "https://github.com/code0wl/basin.js#readme",
   "devDependencies": {
-    "jest": "^22.4.3"
+    "@types/jest": "^22.2.3",
+    "jest": "^22.4.3",
+    "ts-loader": "^4.3.0",
+    "typescript": "^2.8.3",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3"
   }
 }
