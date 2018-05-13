@@ -7,7 +7,7 @@ const config = {
         filename: 'basin.min.js'
     },
     resolve: {
-        extensions: [".ts", ".js"]
+        extensions: [".ts"]
     },
     module: {
         rules: [{
