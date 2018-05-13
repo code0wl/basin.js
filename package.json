@@ -1,10 +1,25 @@
 {
   "name": "basin.js",
-  "version": "1.5.1",
+  "version": "1.5.0",
   "description": "Small util for chaining other datatypes besides an array",
   "main": "index.js",
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
   "scripts": {
-    "start": "webpack",
+    "prepublish": "npm start",
+    "start": "webpack --config webpack.config.js",
     "test": "jest"
   },
   "repository": {
@@ -24,6 +39,7 @@
   "devDependencies": {
     "@types/jest": "^22.2.3",
     "jest": "^22.4.3",
+    "ts-jest": "^22.4.6",
     "ts-loader": "^4.3.0",
     "typescript": "^2.8.3",
     "webpack": "^4.8.2",
