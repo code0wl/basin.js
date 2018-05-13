@@ -2,7 +2,7 @@
   "name": "basin.js",
   "version": "1.2.0",
   "description": "Small util for chaining other datatypes besides an array",
-  "main": "./dist/basin.min.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack --config webpack.config.js",
     "test": "jest"
