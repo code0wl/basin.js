@@ -4,8 +4,7 @@
   "description": "Small util for chaining other datatypes besides an array",
   "main": "index.js",
   "scripts": {
-    "prepublish": "npm start",
-    "start": "webpack --config webpack.config.js",
+    "start": "webpack",
     "test": "jest"
   },
   "repository": {
