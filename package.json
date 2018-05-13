@@ -1,6 +1,6 @@
 {
   "name": "basin.js",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Small util for chaining other datatypes besides an array",
   "main": "index.js",
   "scripts": {
