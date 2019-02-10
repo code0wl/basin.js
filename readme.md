@@ -1,6 +1,6 @@
 # Basin.js 💧
 
-A small utility function for chaining non-array data types together. Works the same as map does in it's compositional state.
+A small utility function for chaining non-array data types operators. Works the same as map does in it's compositional state.
 Main focus is the capture assignment in a linear workflow.
 
 ### Simple Example
